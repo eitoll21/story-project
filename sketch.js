@@ -11,7 +11,7 @@ function setup() {
   // All of your code goes under here
   
 
-  var story = 'Once upon a time, there were three little pigs. Each pig had to '+ build() +' their own house. Then one day a big bad wolf came along and askede ach pig if he could come in. '+ asked() +'  If the pig said no the wolf would attempt to blow their houses down. ' + blow() + 'The wolf is going to attempt to blow the next house down' + blow() + ' The wolf is going to attempt to blow the last house down. ' + blow() + 'The pig would '+ run() +' to the other pigs house if his house was blown down.'
+  var story = 'Once upon a time, there were three little pigs. Each pig had to '+ build() +' their own house. Then one day a big bad wolf came along and asked each pig if he could come in. '+ asked() +'  If the pig said no the wolf would attempt to blow their houses down. ' + blow() + 'The wolf is going to attempt to blow the next house down.' + blow() + ' The wolf is going to attempt to blow the last house down. ' + blow() + 'The pig would run to the other pigs house if his house was blown down.'+ run() +''
 
   printToPage(story); // Print the text to the webpage
 }
